@@ -63,8 +63,8 @@ function verificar() {
 
       } 
     }
+    d_img.style.textAlign='center'
+    d_img.innerHTML=`<h3>Detectamos o sexo ${genero} com ${idade} anos.</h3>`
     d_img.appendChild(img)
-    var res=document.getElementById("res")
-    res.innerText=`Detectamos o sexo ${genero} com ${idade} anos.`
   }
 }
