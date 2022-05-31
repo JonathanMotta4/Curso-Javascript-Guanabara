@@ -1,0 +1,38 @@
+body {
+  background-color: dodgerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.308);
+}
+section {
+  font-size: 1.2em;
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.308);
+}
+#foto,
+#img {
+  text-align: center;
+  margin: auto;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.308);
+
+}
+footer {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.308);
+}

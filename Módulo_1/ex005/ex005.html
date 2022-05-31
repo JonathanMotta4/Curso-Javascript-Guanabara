@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body {
+            background-color: dodgerblue;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Primeiros Passos com DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nisi dolor est minima totam, unde fugiat eum
+        voluptatem, et sint esse rem sequi quis illum repellat facilis eveniet vero labore.</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius, ut perspiciatis, sint deleniti aut blanditiis
+        natus temporibus aspernatur animi dignissimos, consequatur dolorum alias unde debitis rem dolore vero
+        voluptatibus.</p>
+    <div id="msg">Clique Aqui</div>
+    <script>
+        var body=document.body
+        var obj = document.getElementsByClassName('p')[0]
+        /* var d=document.getElementById("msg")
+        d.style.background="orange"
+         */   
+        var d=document.querySelector('div#msg')
+        d.style.background="orange"     
+        
+</script>
+</body>
+
+</html>
